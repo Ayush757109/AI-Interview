@@ -43,10 +43,9 @@ export default function RootLayout({ children }) {
 
             <Toaster richColors />
 
-            <footer className="relative z-10 border-t border-white/10 py-12 mx-auto px-6 flex flex-wrap items-center justify-center text-stone-400">
-              © {new Date().getFullYear()} Prept. All rights reserved.
+            <footer className="border-t border-white/10 py-12 text-center text-stone-400">
+              © {new Date().getFullYear()} Prept
             </footer>
-
           </ThemeProvider>
         </body>
       </html>
